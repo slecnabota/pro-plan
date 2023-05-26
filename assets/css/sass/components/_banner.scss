@@ -1,0 +1,39 @@
+.banner {
+    background-color: var(--banner-bg);
+    padding: 8px 20px;
+    &-inner {
+        @include flex(center, center);
+        column-gap: 32px;
+    }
+    &-img {
+        max-width: 210px;
+    }
+    &-text {
+        font-weight: 500;
+        font-size: 32px;
+        line-height: 120%;
+        font-family: var(--ff-200);
+    }
+}
+
+@media (max-width: 1023px) {
+    .banner {
+        &-text {
+            font-size: 26px;
+        }
+    }
+}
+
+@media (max-width: 767px) {
+    .banner {
+        &-inner {
+            column-gap: 25px;
+        }
+        &-img {
+            max-width: 116px;
+        }
+        &-text {
+            font-size: 20px;
+        }
+    }
+}

@@ -1,0 +1,19 @@
+:root {
+    --clr-50: #000000;
+    --clr-100: #1E1E1E;
+    --clr-200: #353535;
+    --clr-300: #EC1E28;
+    --clr-400: #FCD072;
+    --clr-500: #F5CB6F;
+    --clr-600: #FFFFFF;
+
+    --body-bg: var(--clr-100);
+    --header-bg: var(--clr-200);
+    --footer-bg: var(--clr-200);
+    --banner-bg: var(--clr-300);
+
+    --gr-100: linear-gradient(90deg, #A48749 -5%, #FCD072 50%, #A48749 100%);
+
+    --ff-100: 'Open Sans', sans-serif;
+    --ff-200: 'Playfair Display', serif;
+}

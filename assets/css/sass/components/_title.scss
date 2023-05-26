@@ -1,0 +1,42 @@
+.title {
+    font-weight: 400;
+    color: var(--clr-600);
+    &--large {
+        font-size: 70px;
+        line-height: 110%;
+    }
+    &--medium {
+        font-size: 48px;
+        line-height: 95%;
+    }
+    &--small {
+        font-size: 24px;
+        line-height: 130%;
+    }
+    &--center {
+        text-align: center;
+    }
+}
+
+.subtitle {
+    font-size: 32px;
+    line-height: 120%;
+    color: var(--clr-400);
+}
+
+@media (max-width: 1439px) {
+    .title {
+        &--large {
+            font-size: clamp(32px, 5vw, 70px);
+        }
+        &--medium {
+            font-size: clamp(24px, 4vw, 48px);
+        }
+        &--small {
+            font-size: clamp(20px, 2vw, 24px);
+        }
+    }
+    .subtitle {
+        font-size: clamp(24px, 2.4vw, 32px);
+    }
+}

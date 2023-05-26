@@ -1,0 +1,53 @@
+body {
+    background: var(--body-bg);
+    font-family: var(--ff-100);
+    font-weight: 400;
+    color: var(--clr-600);
+    font-size: 16px;
+    line-height: 1.2em;
+    &._products{
+        background-color: #ffffff;
+        color: #353535;
+    }
+}
+
+a:not([class]) {
+    color: var(--clr-600);
+    transition: all .3s;
+    &:hover {
+        color: var(--clr-400);
+    }
+}
+
+.container {
+    max-width: 1320px;
+    margin: 0 auto;
+    @media (max-width: 1359px) {
+        padding: 0 20px;
+    }
+}
+
+.hidden {
+    display: none !important;
+}
+
+.l-hidden {
+    @media (min-width: 1024px) {
+        display: none !important;
+    }
+}
+
+.m-hidden {
+    @media (min-width: 768px) {
+        display: none !important;
+    }
+}
+
+.text {
+    font-size: 16px;
+    line-height: 1.2em;
+}
+
+.logo {
+    max-width: 162px;
+}

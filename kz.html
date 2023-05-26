@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html lang="kz">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Purina</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Playfair+Display:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/reset.min.css">
+    <link rel="stylesheet" href="assets/css/style.min.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header-flex">
+                <a href="index.html" class="logo header-logo">
+                    <img src="assets/img/brand/logo.svg" alt="Purina Pro Plan">
+                </a>
+                <div class="header-menu" data-menu>
+                    <nav class="header-nav">
+                        <ul class="header-nav-list">
+                            <li class="header-nav-item" data-header-nav-item>
+                                <a href="#join">Қатысу шарты</a>
+                            </li>
+                            <li class="header-nav-item" data-header-nav-item>
+                                <a href="products-kz.html">Өнім</a>
+                            </li>
+                            <li class="header-nav-item" data-header-nav-item>
+                                <a href="#places">Мекенжайлар</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <ul class="header-langs">
+                        <li class="header-lang">
+                            <a href="index.html">RU</a>
+                        </li>
+                        <li class="header-lang header-lang--active">
+                            <a href="kz.html">KZ</a>
+                        </li>
+                    </ul>
+                </div>
+                <button class="header-trigger l-hidden" data-trigger>
+                    <img src="assets/img/icons/menu.svg" alt="Toggle menu">
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <div class="hero-wrap">
+                <h1 class="title title--large hero-title">Pro Plan Ұтыс ойынына қатысыңыз</h1>
+                <div class="hero-img m-hidden">
+                    <picture>
+                        <source media="(max-width: 419px)" srcset="assets/img/hero-img-420.png">
+                        <img src="assets/img/hero-img-768.png" alt="Products">
+                    </picture>
+                    <div class="hero-info hero-info--mobile">*Суреттегі жүлделердің суреті нақты суреттерден өзгеше болуы мүмкін</div>
+                </div>
+                <div class="subtitle hero-subtitle">Бізбен бірге сүйікті үй жануарыңызға мейірім және махаббат сыйлаңыз!</div>
+                <div class="text hero-text">Жарнамаларды өткізу уақыты xx.xx-xx.xx </div>
+                <a href="#join" class="btn hero-btn">Қатысу шарты</a>
+                <div class="hero-info hero-info--desktop">*Суреттегі жүлделердің суреті нақты суреттерден өзгеше болуы мүмкін</div>
+            </div>
+        </div>
+    </section>
+
+    <section class="join" id="join">
+        <div class="container">
+            <h2 class="title title--center title--medium join-title">Қалай қатысуға болады </h2>
+            <div class="join-wrap">
+                <div class="join-card">
+                    <div class="join-card-side">
+                        <h3 class="join-card-title title title--small">Үй жануарыңызға PRO PLAN азығын сатып алыңыз </h3>
+                        <div class="text join-card-text">Мысықтарға 5000 теңгеден, <br> иттерге 10000 теңгеден бастап.</div>
+                    </div>
+                    <div class="join-card-img">
+                        <img src="assets/img/join-card-1.png" alt="card">
+                    </div>
+                </div>
+                <div class="join-card">
+                    <div class="join-card-side">
+                        <h3 class="join-card-title title title--small">Чекті промоутерден скретч картаға айырбастаңыз</h3>
+                        <div class="text join-card-text"></div>
+                    </div>
+                    <div class="join-card-img join-card-img--align-self-end">
+                        <img src="assets/img/join-card-2.png" alt="card">
+                    </div>
+                </div>
+                <div class="join-card">
+                    <div class="join-card-side">
+                        <h3 class="join-card-title title title--small">Кепілдендірілген жүлделер алыңыз</h3>
+                        <div class="text join-card-text hide-on-mobile">Пауч, мысыққа арналған ыдыс, итке арналған ыдыс, мысыққа арналған жатын орын, иттерге арналған автогамак, Яндекс колонка Алиса. </div>
+                    </div>
+                    <div class="join-card-img">
+                        <img src="assets/img/join-card-3.png" alt="card">
+                        <div class="join-card-info">*Суреттегі жүлделердің суреті нақты суреттерден өзгеше болуы мүмкін</div>
+                    </div>
+                </div>
+            </div>
+            <div class="subtitle join-subtitle">Науқанға  Pro Plan тағамының барлық ассортименті  кіреді</div>
+            <a href="products-kz.html" class="btn join-btn">Pro Plan ассортименті</a>
+        </div>
+    </section>
+
+    <section class="places" id="places">
+        <div class="container">
+            <h2 class="title title--medium title--center places-title">Науқан ойынының мекенжайы</h2>
+            <div class="subtitle places-subtitle">Науқан Pro Plan-ның серіктес дүкендерінде өткізіледі</div>
+            <div class="places-wrap">
+                <div class="places-card" data-card>
+                    <div class="places-card-head">
+                        <h3 class="title title--small places-card-title">г. Алматы</h3>
+                        <button class="text places-card-show" data-card-show>
+                            <span>Мекенжайларды көрсету </span>
+                            <img src="assets/img/icons/chevron.svg" alt="Chevron">
+                        </button>
+                    </div>
+                    <div class="places-card-body" data-card-body>
+                        <div class="places-card-inner">
+                            <ul class="places-card-list" data-card-list>
+                                <li>
+                                    <a href="#"
+                                        data-card-map='<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2905.4855313929756!2d76.94213089059447!3d43.26220300318494!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38836e99f5f0b9b7%3A0x96b2aaf006cd1dca!2sZhybek-Zholy%20Street%2053%2C%20Almaty%20050000!5e0!3m2!1sen!2skz!4v1683976696440!5m2!1sen!2skz" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>'>ул.
+                                        Жибек Жолы д.53,<br>"Уаисов ИП"                                    
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#"
+                                        data-card-map='<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2906.3964098014158!2d76.90167827659124!3d43.24311317885676!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3883693979ab0bfb%3A0x1b17bd82c9a92aa!2sAuezov%20St%20208%2C%20Almaty%20050000!5e0!3m2!1sen!2skz!4v1684064433652!5m2!1sen!2skz" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>'>ул.
+                                        Ауэзова д.208,<br>“Живой Мир“   
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#"
+                                        data-card-map='<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2907.7719668388017!2d76.94406437659009!3d43.21427198070814!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38836f14af531dff%3A0x706a66e49350a4fa!2sSyzganov%20St%201%2C%20Almaty%20050000!5e0!3m2!1sen!2skz!4v1684064476037!5m2!1sen!2skz" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>'>ул.
+                                        Изганова д. 1,<br>“ZOOMart“ </a>
+                                </li>
+                                <li>
+                                    <a href="#"
+                                        data-card-map='<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2905.7511437788185!2d76.79864469059291!3d43.25663710354333!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x388341f4d7a237ef%3A0xfc68a9b4db82737c!2z0LQgMjIsINCQ0pvRgdCw0Lkg0LrTqdGI0LXRgdGWIDQsIEFsbWF0eQ!5e0!3m2!1sen!2skz!4v1684064555527!5m2!1sen!2skz" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>'>4
+                                        Аксай, д. 22,<br>“ZOOMart“ </a>
+                                </li>
+                                <li>
+                                    <a href="#"
+                                        data-card-map='<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2906.3043957851464!2d76.89473257659134!3d43.245041878733026!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3883693f977d2dab%3A0x58feb90cf2607e4e!2sZhambyl%20St%20131%2C%20Almaty%20050012!5e0!3m2!1sen!2skz!4v1684064591869!5m2!1sen!2skz" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>'>ул.
+                                        Жамбыла, д. 131,<br>“ZOO MARKET“ </a>
+                                </li>
+                                <li>
+                                    <a href="#"
+                                        data-card-map='<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2907.3425837937384!2d76.95970577659041!3d43.223276480130416!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38836f0845138959%3A0x5f50ac404a621200!2sDostyk%20Ave%20109%2C%20Almaty%20050051!5e0!3m2!1sen!2skz!4v1684064656423!5m2!1sen!2skz" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>'>пр.
+                                        Достык, д. 109,<br>“ZOO MARKET“ </a>
+                                </li>
+                                <li>
+                                    <a href="#"
+                                        data-card-map='<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2908.4897813820508!2d76.87730947658947!3d43.1992154816742!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3883688ee4f017ad%3A0x8a56b8a9ffb97422!2s%D0%B4%203%2C%20Mustafin%20Street%205%2C%20Almaty!5e0!3m2!1sen!2skz!4v1684064689945!5m2!1sen!2skz" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>'>3
+                                        Орбита, д. 3 /5 Мустафина /Биржана (внутри базара),<br>“Зоо Лавка ИП“ </a>
+                                </li>
+                                <li>
+                                    <a href="#"
+                                        data-card-map='<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2906.8953568485294!2d76.89794917659077!3d43.232653579528346!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38836923fa230b39%3A0xd0e5187bb8fb64d3!2sZhandosov%20Street%2019%2C%20Almaty%20050000!5e0!3m2!1sen!2skz!4v1684064724735!5m2!1sen!2skz" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>'>ул.
+                                        Жандосова, д. 19,<br>“Zoo land“ </a>
+                                </li>
+                                <li>
+                                    <a href="#"
+                                        data-card-map='<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2906.324724358262!2d76.89164607659124!3d43.24461577876039!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x388369154250f641%3A0xe3fae251f88581ab!2sGagarin%20Ave%2066%D0%B1%2C%20Almaty%20050009!5e0!3m2!1sen!2skz!4v1684064765433!5m2!1sen!2skz" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>'>пр.
+                                        Гагарина, д. 66 Б,<br>“Zoo land“ </a>
+                                </li>
+                                <li>
+                                    <a href="#"
+                                        data-card-map='<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d23250.585088431515!2d76.87362145860362!3d43.2446490707623!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38836f5f4e193f0b%3A0x4a064d818a365972!2sKit!5e0!3m2!1sen!2skz!4v1684064821625!5m2!1sen!2skz" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>'>Коктем
+                                        1 мкрн 16,<br>“Dog“ </a>
+                                </li>
+                                <li>
+                                    <a href="#"
+                                        data-card-map='<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2906.8307829232886!2d76.8930199765909!3d43.23400737944137!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3883692286b88cb3%3A0xb6511e57f41040a1!2sGagarin%20Ave%20145%2C%20Almaty%20050000!5e0!3m2!1sen!2skz!4v1684064854159!5m2!1sen!2skz" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>'>пр.
+                                        Гагарина, д. 145,<br>Котопефф </a>
+                                </li>
+                                <li>
+                                    <a href="#"
+                                        data-card-map='<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2907.2688263517507!2d76.89429507659047!3d43.22482308003097!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x388368dfb80f7a51%3A0x16c18b8c82633eb6!2s188%2014%2C%20Timiryazev%20St%2060%2C%20Almaty%20050060!5e0!3m2!1sen!2skz!4v1684064890043!5m2!1sen!2skz" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>'>ул.
+                                        Тимирязева д. 60 188 кв. 14,<br>“ЗОО МИР “ </a>
+                                </li>
+                                <li>
+                                    <a href="#"
+                                        data-card-map='<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2906.0675734797996!2d76.87946297659144!3d43.25000557841446!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3883697194f3b281%3A0xd7104b8efe997f5f!2sTole%20Bi%20Street%20234%20%D0%91%2C%20Almaty%20050000!5e0!3m2!1sen!2skz!4v1684064971112!5m2!1sen!2skz" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>'>ул.
+                                        Толе би д. 234 Б,<br>“Багира“ </a>
+                                </li>
+                                <li>
+                                    <a href="#"
+                                        data-card-map='<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2907.0487527648484!2d76.89782637659069!3d43.22943747973488!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38836920d12a025f%3A0x80d427c833fe0d53!2sZharokov%20St%20195%2C%20Almaty%20050057!5e0!3m2!1sen!2skz!4v1684065002919!5m2!1sen!2skz" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>'>ул.
+                                        Жарокова, д. 195,<br>“Мастер Грум“ </a>
+                                </li>
+                                <li>
+                                    <a href="#"
+                                        data-card-map='<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2902.756216655725!2d76.9141201765942!3d43.31936247395788!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38836b6221ebbfd5%3A0x37ff3bf5d494a7f0!2sTorgovyy%20Kompleks%20Sultan!5e0!3m2!1sen!2skz!4v1684065075021!5m2!1sen!2skz" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>'>Мкрн
+                                        Айнабулак 2 84/4, ТД Султан,<br>“Зебро“ </a>
+                                </li>
+                                <li>
+                                    <a href="#"
+                                        data-card-map='<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2905.8177454174456!2d76.9167576765917!3d43.25524137807817!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38836eb323658e1d%3A0xfa0893ee8bae47d3!2s2%2C%20Kazybek%20Bi%20St%20139%2C%20Almaty%20050000!5e0!3m2!1sen!2skz!4v1684065150011!5m2!1sen!2skz" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>'>ул.
+                                        Казыбек би, д. 139 кв.2,<br>“Зебро“ </a>
+                                </li>
+                                <li>
+                                    <a href="#" data-card-map=''>Мкрн-1, д.46,<br>“Гурман“ </a>
+                                </li>
+                                <li>
+                                    <a href="#" data-card-map=''>Мкрн-6, д. 45 кв. 34,<br>“ZOO FOOD “ </a>
+                                </li>
+                                <li>
+                                    <a href="#"
+                                        data-card-map='<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6564.68840083429!2d76.94943052666146!3d43.308663627564975!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38836cf87d9b9247%3A0xf3f3beddf2182f2f!2sSuyunbai%20Ave%20162%2C%20Almaty!5e0!3m2!1sen!2skz!4v1684065283141!5m2!1sen!2skz" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>'>пр.
+                                        Суюнбая д.162 а,<br>“Дружок“ </a>
+                                </li>
+                                <li>
+                                    <a href="#"
+                                        data-card-map='<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2907.0019303253785!2d76.89220807659072!3d43.230419179671784!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3883691f5dd68723%3A0xf71f9d82ad23977c!2sGagarin%20Ave%20309%2C%20Almaty%20050000!5e0!3m2!1sen!2skz!4v1684065306514!5m2!1sen!2skz" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>'>пр.
+                                        Гагарина, д.309,<br>“Зоо маг“ </a>
+                                </li>
+                            </ul>
+                            <div class="places-card-map" data-card-wrap>
+                                <iframe
+                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2905.4855313929756!2d76.94213089059447!3d43.26220300318494!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38836e99f5f0b9b7%3A0x96b2aaf006cd1dca!2sZhybek-Zholy%20Street%2053%2C%20Almaty%20050000!5e0!3m2!1sen!2skz!4v1683976696440!5m2!1sen!2skz"
+                                    width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="places-card" data-card>
+                    <div class="places-card-head">
+                        <h3 class="title title--small places-card-title">г. Астана</h3>
+                        <button class="text places-card-show" data-card-show>
+                            <span>Мекенжайларды көрсету </span>
+                            <img src="assets/img/icons/chevron.svg" alt="Chevron">
+                        </button>
+                    </div>
+                    <div class="places-card-body" data-card-body>
+                        <div class="places-card-inner">
+                            <ul class="places-card-list" data-card-list>
+                                <li>
+                                    <a href="#"
+                                        data-card-map='<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2505.7566318847175!2d71.42312617692615!3d51.09449874078265!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4245844ffa10c181%3A0x9eeab2b22e64db53!2sProspekt%20Mangilik%20Yel.%2053%2C%20Astana%20020000!5e0!3m2!1sen!2skz!4v1684066013266!5m2!1sen!2skz" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>'>пр.
+                                        Ахмет Байтурсынулы, 22,<br>“Ежкин Кот“ </a>
+                                </li>
+                                <li>
+                                    <a href="#"
+                                        data-card-map='<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2505.7566318847175!2d71.42312617692615!3d51.09449874078265!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4245844ffa10c181%3A0x9eeab2b22e64db53!2sProspekt%20Mangilik%20Yel.%2053%2C%20Astana%20020000!5e0!3m2!1sen!2skz!4v1684066013266!5m2!1sen!2skz" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>'>пр.
+                                        Мангилик Ел, д. 53,<br>“Кошкин дом “ </a>
+                                </li>
+                                <li>
+                                    <a href="#"
+                                        data-card-map='<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2501.447374046413!2d71.41603647692973!3d51.17397683500584!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4245872bb3c85177%3A0xf4d44dd2125dd53c!2sBeibitshilik%20St%2029%2C%20Astana%20010000!5e0!3m2!1sen!2skz!4v1684066099364!5m2!1sen!2skz" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>'>ул.
+                                        просп. Туран, 37 (Хан Шатыр),<br>“Зооленд“  </a>
+                                </li>
+                                <li>
+                                    <a href="#"
+                                        data-card-map='<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2501.447374046413!2d71.41603647692973!3d51.17397683500584!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4245872bb3c85177%3A0xf4d44dd2125dd53c!2sBeibitshilik%20St%2029%2C%20Astana%20010000!5e0!3m2!1sen!2skz!4v1684066099364!5m2!1sen!2skz" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>'>ул.
+                                        Бейбитшилик, д. 29,<br>“PETLIFE“ </a>
+                                </li>
+                                <li>
+                                    <a href="#"
+                                        data-card-map='<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2501.8883503885404!2d71.43620227692935!3d51.16584773559692!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4245812e635a9b7d%3A0x1a6666a46e998852!2sShokan%20Valikhanov%20Street%209%2C%20Astana%20020000!5e0!3m2!1sen!2skz!4v1684066150222!5m2!1sen!2skz" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>'>ул.
+                                        Валиханова, д. 9,<br>“Кошкин дом “ </a>
+                                </li>
+                                <li>
+                                    <a href="#"
+                                        data-card-map='<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2501.762063937352!2d71.40168707692943!3d51.16817583542779!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x424586d8aef3f397%3A0xe4a29cb8fb9ba576!2sUlitsa%20Seyfullina%205%2C%20Astana%20020000!5e0!3m2!1sen!2skz!4v1684066221148!5m2!1sen!2skz" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>'>ул.
+                                        Сейфуллина, д. 5,<br>“Чеширский Кот“ </a>
+                                </li>
+                                <li>
+                                    <a href="#"
+                                        data-card-map='<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2501.762063937352!2d71.40168707692943!3d51.16817583542779!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4245872829cb115f%3A0xf03c70ee0ceea62a!2sS%C3%A4ken%20Seyfullin%20St%2017%2C%20Astana%20020000!5e0!3m2!1sen!2skz!4v1684066242483!5m2!1sen!2skz" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>'>ул.
+                                        Сейфуллина, д. 17,<br>“В мире животных“ </a>
+                                </li>
+                                <li>
+                                    <a href="#"
+                                        data-card-map='<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2501.762063937352!2d71.40168707692943!3d51.16817583542779!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4245872829cb115f%3A0xf03c70ee0ceea62a!2sS%C3%A4ken%20Seyfullin%20St%2017%2C%20Astana%20020000!5e0!3m2!1sen!2skz!4v1684066242483!5m2!1sen!2skz" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>'>ул.
+                                        ул. Иманова, д. 3,<br>“Четыре лапы “ </a>
+                                </li>
+                                <li>
+                                    <a href="#"
+                                        data-card-map='<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2501.762063937352!2d71.40168707692943!3d51.16817583542779!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4245872829cb115f%3A0xf03c70ee0ceea62a!2sS%C3%A4ken%20Seyfullin%20St%2017%2C%20Astana%20020000!5e0!3m2!1sen!2skz!4v1684066242483!5m2!1sen!2skz" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>'>ул.
+                                        ул. Баянауыл, д. 1,<br> “OCEANICA“ </a>
+                                </li>
+                                <li>
+                                    <a href="#"
+                                        data-card-map='<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2501.762063937352!2d71.40168707692943!3d51.16817583542779!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4245872829cb115f%3A0xf03c70ee0ceea62a!2sS%C3%A4ken%20Seyfullin%20St%2017%2C%20Astana%20020000!5e0!3m2!1sen!2skz!4v1684066242483!5m2!1sen!2skz" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>'>
+                                        Ул. Каюма Мухамедханова, д.6, д. 17,<br>“Прокорм“ </a>
+                                </li>
+                                <li>
+                                    <a href="#"
+                                        data-card-map='<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2502.962494214133!2d71.46465767692855!3d51.14604273703681!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4245815b56f1c8b3%3A0xa582f74e7ca8cef!2sKuyshi%20Dina%20St%2013%2C%20Astana%20020000!5e0!3m2!1sen!2skz!4v1684066639169!5m2!1sen!2skz" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>'>ул.
+                                        Куйши Дина, д. 13,<br>“Зверополис“ </a>
+                                </li>
+                            </ul>
+                            <div class="places-card-map" data-card-wrap>
+                                <iframe
+                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d56930.97380978835!2d71.433965484639!3d51.15333128305939!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x424581f9dd88e99f%3A0xf9b19b831cedf4c6!2sAlexander%20Pushkin%20St%207%2C%20Astana%20010005!5e0!3m2!1sen!2skz!4v1684065608651!5m2!1sen!2skz"
+                                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="places-card" data-card>
+                    <div class="places-card-head">
+                        <h3 class="title title--small places-card-title">г. Караганда</h3>
+                        <button class="text places-card-show" data-card-show>
+                            <span>Мекенжайларды көрсету </span>
+                            <img src="assets/img/icons/chevron.svg" alt="Chevron">
+                        </button>
+                    </div>
+                    <div class="places-card-body" data-card-body>
+                        <div class="places-card-inner">
+                            <ul class="places-card-list" data-card-list>
+                                <li>
+                                    <a href="#"
+                                        data-card-map='<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2574.598939975372!2d73.10125757686811!3d49.81240723309827!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4243471e04aaea95%3A0x2ba4d98e7da6386c!2sAlikhanov%20Street%2035%2C%20Karaganda%20100000!5e0!3m2!1sen!2skz!4v1684066750732!5m2!1sen!2skz" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>'>
+                                        ул. Алиханова, д. 35,<br>“Лаки Дог “ </a>
+                                </li>
+                                <li>
+                                    <a href="#"
+                                        data-card-map='<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2574.377234581558!2d73.06754637686831!3d49.81657473280085!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x424346d23ed6e089%3A0xaa51caf6e0d17bab!2s1%2C%20Kazakhstan%20St%205%2C%20Karaganda%20100000!5e0!3m2!1sen!2skz!4v1684066791618!5m2!1sen!2skz" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>'>ул.
+                                        Казахстанская, д. 5/1,<br>“ЗОО МИР “ </a>
+                                </li>
+                                <li>
+                                    <a href="#"
+                                        data-card-map='<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2575.8656483793075!2d73.14496629254882!3d49.78859141125155!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4243479ca7d72725%3A0x60966a023078fcf3!2sStepnoy%203%20Microdistrict%2C%20Karaganda%20100000!5e0!3m2!1sen!2skz!4v1684066818574!5m2!1sen!2skz" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>'>Степной
+                                        3 мкрн д.3,<br>“Лаки Дог “ </a>
+                                </li>
+                                <li>
+                                    <a href="#"
+                                        data-card-map='<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2576.68233661214!2d73.13596917686641!3d49.77323213589275!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4243399c966fa72d%3A0xee47e5f9d3868fab!2sStroitelei%20Ave%2010%2C%20Karaganda%20100000!5e0!3m2!1sen!2skz!4v1684066854532!5m2!1sen!2skz" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>'>пр.
+                                        Строителей, д. 10,<br>“Ежкин-Кот “ </a>
+                                </li>
+                            </ul>
+                            <div class="places-card-map" data-card-wrap>
+                                <iframe
+                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2574.598939975372!2d73.10125757686811!3d49.81240723309827!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4243471e04aaea95%3A0x2ba4d98e7da6386c!2sAlikhanov%20Street%2035%2C%20Karaganda%20100000!5e0!3m2!1sen!2skz!4v1684066750732!5m2!1sen!2skz"
+                                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="places-card" data-card>
+                    <div class="places-card-head">
+                        <h3 class="title title--small places-card-title">г. Атырау</h3>
+                        <button class="text places-card-show" data-card-show>
+                            <span>Мекенжайларды көрсету </span>
+                            <img src="assets/img/icons/chevron.svg" alt="Chevron">
+                        </button>
+                    </div>
+                    <div class="places-card-body" data-card-body>
+                        <div class="places-card-inner">
+                            <ul class="places-card-list" data-card-list>
+                                <li>
+                                    <a href="#"
+                                        data-card-map='<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2715.5689772192554!2d51.89516737675006!3d47.10751982230749!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x41a3e98585e1adb3%3A0xf96b8d06eebfa22e!2sK.%20Yerniyazov%20St%2018%2C%20Atyrau!5e0!3m2!1sen!2skz!4v1684066946369!5m2!1sen!2skz" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>'>ул.
+                                        Ерниязов, д. 18,<br>“Лапа“ </a>
+                                </li>
+                                <li>
+                                    <a href="#"
+                                        data-card-map='<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2715.5966947330785!2d51.934535176750046!3d47.10697652234478!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x41a3ea1b0549a7b1%3A0x2b34f8779ded8144!2z0J3QsNGG0LjQvtC90LDQu9GM0L3QsNGPINGI0LrQvtC70LAg0LPQuNC80L3QsNC30LjRjyDihJYxMyDQuNC80LXQvdC4ICLQlC7QkdCw0LnQsdC-0YHRi9C90L7QstCwIiwgR2VvcmdpaSBLYW50c2V2IFN0IDEsIEF0eXJhdQ!5e0!3m2!1sen!2skz!4v1684066992904!5m2!1sen!2skz" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>'>ул.
+                                        Канцева д.1,<br>“Лапа“ </a>
+                                </li>
+                            </ul>
+                            <div class="places-card-map" data-card-wrap>
+                                <iframe
+                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2715.5689772192554!2d51.89516737675006!3d47.10751982230749!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x41a3e98585e1adb3%3A0xf96b8d06eebfa22e!2sK.%20Yerniyazov%20St%2018%2C%20Atyrau!5e0!3m2!1sen!2skz!4v1684066946369!5m2!1sen!2skz"
+                                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="places-card" data-card>
+                    <div class="places-card-head">
+                        <h3 class="title title--small places-card-title">г. Актобе</h3>
+                        <button class="text places-card-show" data-card-show>
+                            <span>Мекенжайларды көрсету </span>
+                            <img src="assets/img/icons/chevron.svg" alt="Chevron">
+                        </button>
+                    </div>
+                    <div class="places-card-body" data-card-body>
+                        <div class="places-card-inner">
+                            <ul class="places-card-list" data-card-list>
+                                <li>
+                                    <a href="#"
+                                        data-card-map='<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2548.878384412828!2d57.16834837688982!3d50.29419799860164!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x418221802c300001%3A0xc7c8bc306b02ed51!2z05jQu9C40Y8g0JzQvtC70LTQsNKT0rHQu9C-0LLQsCDQtNCw0L3Sk9GL0LvRiyAzMCwgQWt0b2JlIDAzMDAxOQ!5e0!3m2!1sen!2skz!4v1684067063524!5m2!1sen!2skz" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>'>
+                                        пр. Абулхайр - хана 66/3,<br>“Флора и Фауна“ </a>
+                                </li>
+                                <li>
+                                    <a href="#"
+                                        data-card-map='<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2548.666716833586!2d57.17084607688993!3d50.298148898317805!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x41822183c619a2c1%3A0xc7b64286eb61af5f!2sTurgenev%20St%20104%2C%20Aktobe%20030019!5e0!3m2!1sen!2skz!4v1684067092200!5m2!1sen!2skz" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>'>ул.
+                                        Тургенева, д.104 Б,<br>“ЗООМАРКЕТ“ </a>
+                                </li>
+                            </ul>
+                            <div class="places-card-map" data-card-wrap>
+                                <iframe
+                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2548.878384412828!2d57.16834837688982!3d50.29419799860164!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x418221802c300001%3A0xc7c8bc306b02ed51!2z05jQu9C40Y8g0JzQvtC70LTQsNKT0rHQu9C-0LLQsCDQtNCw0L3Sk9GL0LvRiyAzMCwgQWt0b2JlIDAzMDAxOQ!5e0!3m2!1sen!2skz!4v1684067063524!5m2!1sen!2skz"
+                                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="places-card" data-card>
+                    <div class="places-card-head">
+                        <h3 class="title title--small places-card-title">г. Костанай</h3>
+                        <button class="text places-card-show" data-card-show>
+                            <span>Мекенжайларды көрсету </span>
+                            <img src="assets/img/icons/chevron.svg" alt="Chevron">
+                        </button>
+                    </div>
+                    <div class="places-card-body" data-card-body>
+                        <div class="places-card-inner">
+                            <ul class="places-card-list" data-card-list>
+                                <li>
+                                    <a href="#"
+                                        data-card-map='<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2389.5347820261795!2d63.630682777024276!3d53.20825908504624!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x43cc8a5bf083be97%3A0x750107c236d8c44d!2sAbay%20Ave%20149%2C%20Qostana%C3%BD%20110000!5e0!3m2!1sen!2skz!4v1684067181834!5m2!1sen!2skz" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>'>пр.Абая,
+                                        д. 149,<br>“ЗОО Магазин“ </a>
+                                </li>
+                                <li>
+                                    <a href="#"
+                                        data-card-map='<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2388.4351270885504!2d63.61375147702513!3d53.227975883573386!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x43cc8a7981a6017d%3A0xdf1f291c1134aadb!2sUlitsa%20Dzerzhinskogo%2060%2C%20Kostanay%20110000!5e0!3m2!1sen!2skz!4v1684067212012!5m2!1sen!2skz" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>'>ул.
+                                        Дзержинского, д. 60,<br>“ЗООМИР“ </a>
+                                </li>
+                            </ul>
+                            <div class="places-card-map" data-card-wrap>
+                                <iframe
+                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2389.5347820261795!2d63.630682777024276!3d53.20825908504624!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x43cc8a5bf083be97%3A0x750107c236d8c44d!2sAbay%20Ave%20149%2C%20Qostana%C3%BD%20110000!5e0!3m2!1sen!2skz!4v1684067181834!5m2!1sen!2skz"
+                                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="places-card" data-card>
+                    <div class="places-card-head">
+                        <h3 class="title title--small places-card-title">г. Павлодар</h3>
+                        <button class="text places-card-show" data-card-show>
+                            <span>Мекенжайларды көрсету </span>
+                            <img src="assets/img/icons/chevron.svg" alt="Chevron">
+                        </button>
+                    </div>
+                    <div class="places-card-body" data-card-body>
+                        <div class="places-card-inner">
+                            <ul class="places-card-list" data-card-list>
+                                <li>
+                                    <a href="#"
+                                        data-card-map='<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2441.9599420407058!2d76.98302207697998!3d52.26227245527858!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x42f9cbb83157aedd%3A0x6e5ca0c9523e8afa!2sKamzin%20St%20171%2C%20Pavlodar%20140013!5e0!3m2!1sen!2skz!4v1684074834080!5m2!1sen!2skz" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>'>ул.
+                                        Камзина, д. 171,<br>“ТД Караван“ </a>
+                                </li>
+                                <li>
+                                    <a href="#"
+                                        data-card-map='<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d19526.089502882245!2d76.92844058376194!3d52.28403741153987!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x42f83537a6a0fffd%3A0x697e43c1febf0e3a!2sASIA!5e0!3m2!1sen!2skz!4v1684074907577!5m2!1sen!2skz" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>'>ул.
+                                        Торайгурова, д. 28,<br>“Кот Баюн“ </a>
+                                </li>
+                            </ul>
+                            <div class="places-card-map" data-card-wrap>
+                                <iframe
+                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2441.9599420407058!2d76.98302207697998!3d52.26227245527858!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x42f9cbb83157aedd%3A0x6e5ca0c9523e8afa!2sKamzin%20St%20171%2C%20Pavlodar%20140013!5e0!3m2!1sen!2skz!4v1684074834080!5m2!1sen!2skz"
+                                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="places-card" data-card>
+                    <div class="places-card-head">
+                        <h3 class="title title--small places-card-title">г. Оскемен</h3>
+                        <button class="text places-card-show" data-card-show>
+                            <span>Мекенжайларды көрсету </span>
+                            <img src="assets/img/icons/chevron.svg" alt="Chevron">
+                        </button>
+                    </div>
+                    <div class="places-card-body" data-card-body>
+                        <div class="places-card-inner">
+                            <ul class="places-card-list" data-card-list>
+                                <li>
+                                    <a href="#"
+                                        data-card-map='<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2566.488539436416!2d82.58277337687497!3d49.9646961222197!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x42eb4598e4bd69f9%3A0xebe18eed5809d28f!2sVinogradov%20St%2017%2C%20Ust&#39;-Kamenogorsk%20070000!5e0!3m2!1sen!2skz!4v1684074955346!5m2!1sen!2skz" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>'>ул.
+                                        Виноградова, д. 17,<br>“Поводок “ </a>
+                                </li>
+                                <li>
+                                    <a href="#" data-card-map=''>ул. Ауэзова, д. 13,<br>“ЗОО Товары“ </a>
+                                </li>
+                                <li>
+                                    <a href="#"
+                                        data-card-map='<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2567.252609207637!2d82.63616647687437!3d49.9503637232445!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x42eb4602038212bf%3A0x971c7838221f9db0!2sKabanbay%20Batyr%20St%20120%2C%20Ust&#39;-Kamenogorsk%20070000!5e0!3m2!1sen!2skz!4v1684075104514!5m2!1sen!2skz" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>'>пр.
+                                        Батыра, д. 120,<br>“ЗОО Товары“ </a>
+                                </li>
+                            </ul>
+                            <div class="places-card-map" data-card-wrap>
+                                <iframe
+                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2566.488539436416!2d82.58277337687497!3d49.9646961222197!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x42eb4598e4bd69f9%3A0xebe18eed5809d28f!2sVinogradov%20St%2017%2C%20Ust&#39;-Kamenogorsk%20070000!5e0!3m2!1sen!2skz!4v1684074955346!5m2!1sen!2skz"
+                                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="places-card" data-card>
+                    <div class="places-card-head">
+                        <h3 class="title title--small places-card-title">г. Темиртау</h3>
+                        <button class="text places-card-show" data-card-show>
+                            <span>Мекенжайларды көрсету </span>
+                            <img src="assets/img/icons/chevron.svg" alt="Chevron">
+                        </button>
+                    </div>
+                    <div class="places-card-body" data-card-body>
+                        <div class="places-card-inner">
+                            <ul class="places-card-list" data-card-list>
+                                <li>
+                                    <a href="#"
+                                        data-card-map='<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2561.092344536278!2d72.9784629768795!3d50.06583221498208!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4243585da60d0355%3A0xa2c3300b61eb8b05!2sProspekt%20Bauyrzhana%20Momyshuly%2056%2C%20Temirtau%20100000!5e0!3m2!1sen!2skz!4v1684075208493!5m2!1sen!2skz" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>'>пр.
+                                        Бауржана Момышулы 56/4,<br>“КЛС ФОРТУНА“ </a>
+                                </li>
+                                <li>
+                                    <a href="#"
+                                        data-card-map='<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2561.412168102758!2d72.94917697687927!3d50.05984221541103!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x424358ec098ab405%3A0x22327c42e8c6fd3b!2sBul&#39;var%20Nezavisimosti%208%2C%20Temirtau%20100000!5e0!3m2!1sen!2skz!4v1684075233886!5m2!1sen!2skz" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>'>Бульвар
+                                        Независимости, д. 8,<br>“Магнат“ </a>
+                                </li>
+                            </ul>
+                            <div class="places-card-map" data-card-wrap>
+                                <iframe
+                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2561.092344536278!2d72.9784629768795!3d50.06583221498208!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4243585da60d0355%3A0xa2c3300b61eb8b05!2sProspekt%20Bauyrzhana%20Momyshuly%2056%2C%20Temirtau%20100000!5e0!3m2!1sen!2skz!4v1684075208493!5m2!1sen!2skz"
+                                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="banner">
+        <div class="banner-inner">
+            <div class="banner-img">
+                <img src="assets/img/brand/purina.png" alt="Purina">
+            </div>
+            <div class="banner-text">Бар ойымыз сіздің үй жануарыңыздың қамы</div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-flex">
+                <div class="footer-group">
+                    <a href="#" class="logo footer-logo">
+                        <img src="assets/img/brand/logo.svg" alt="Purina Pro Plan">
+                    </a>
+                    <a href="mailto:pro_plan@gmail.com" class="footer-btn">
+                        <button>
+                            Байланысу
+                        </button>
+                    </a>
+                </div>
+                <nav class="footer-nav">
+                    <ul class="footer-nav-list">
+                        <li class="footer-nav-item">
+                            <a href="#join">Қатысу шарты</a>
+                        </li>
+                        <li class="footer-nav-item">
+                            <a href="products-kz.html">Өнім</a>
+                        </li>
+                        <li class="footer-nav-item">
+                            <a href="#places">Мекенжайлар</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/js/header.js"></script>
+    <script src="assets/js/places.js"></script>
+</body>
+</html>
